@@ -246,10 +246,13 @@ chisq.test(counts)
 # testing relationship between two variables
 
 # first do a scatterplot. Any reason not to think linear might work?
+
+attach(cars)
+
 plot(cars$Mileage, cars$Price)
 
 # and here we go. 
-model = lm (cars$Price ~ cars$Mileage)
+model = lm (Price ~ Mileage, data = cars)
 model
 
 # plot it on the scatterplot like this:
@@ -258,7 +261,7 @@ abline ( model, col = "red", lwd = 2)
 
 # then we can use this fancy model to make predictions,
 # such as the price of a one-year old used car with 20,000 miles on it:
-predict(model, list(cars$Mileage = 20000))
+predict(model, list(Mileage = 20000))
 # the above isn't working for me.
 # The second argument is supposed to be a list of predictor variables.
 
@@ -273,3 +276,38 @@ plot (model)
 # focus on the top 2. The bottom 2, shrug, who nose.
 
 # see examples of how to interpret on slide 14. Screenshotted in the notes folder.
+
+# if we had the data, this would build a model with a squared term:
+
+# Distance2 = Distance ^ 2
+# model2 = lm(YearLength ~ Distance + Distance2)
+
+
+# the Quantile-Quantile plot takes the residuals, subtracts the mean, and divides by sd
+# the cars mileage-price example is adjudged to have to much variation from the normal distribution 
+
+# so we will do a log transformation. Here is how it is done:
+logPrice = log(Price)
+model2 = lm(logPrice ~ Mileage)
+model2
+plot(model2)
+
+# so that is saying our equation is log(Price) = 10.03 - 7.406e-6 * Mileage
+# therefore Price = e ^ (10.03 - 7.406e-6 * Mileage)
+
+# OK, so is this generalizable? 
+# Null hypothesis is that the true slope is 0. (That is, log(Price) is not associated with Mileage)
+# Alt hypth is that true slope != 0.
+
+# we just do
+summary(model2)
+# then loook at the p-value for the slope for Mileage - second row of the table of coefficients.
+
+
+# you can store the summary in a variable:
+a = summary(model2)
+
+# then access different parts of the summary by typing 'a$', then pressing tab
+
+# we can get that value we want from the table with
+a$coeff[2,4]
