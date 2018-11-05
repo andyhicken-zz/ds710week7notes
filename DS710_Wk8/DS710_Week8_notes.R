@@ -29,7 +29,7 @@ sample(1:10, 3)
 # We'll use four common methods:
 
 # T-test
-# for comparing mean of a quantitative variable
+# for mean of a quantitative variable
 
 # Test for proportions
 # like a t-test but for categorical variables
@@ -99,7 +99,7 @@ t.test(cars$Price, mu = 24721.86, alternative = "less")
 # Here's an example of a two-sample t-test: 
 # Is there a difference in mean price between cars with two doors and cars with 4 doors? 
 # Null hypothesis: there's no difference; they're equal.
-# H-sub-1: there's a different. Not equal. 
+# H-sub-1: there's a difference. Not equal. 
 # t-test:
 # First variable is the one whose mean we're testing, and the second variable says how to divide
 # the observations into two groups.
@@ -118,6 +118,19 @@ FourDoor = cars$Price [ which(cars$Doors ==4)]
 t.test(TwoDoor, FourDoor)
 # ^ the key when there are different vectors is to use a comma instead of a tilda. Shruggie. 
 
+# running a little test to make sure I get the syntax. 
+test_data <- read_csv("test_data.csv")
+attach(test_data)
+head(test_data)
+control_group = score [ which (group == "A")]
+head(grpA)
+treatment_group = score [ which (group == "B")]
+# the data above was doctored such that group B had a much higher average score than group A. 
+
+# in the following format, the first variable is x and the second variable is y
+# the "difference in means" is x-y (more or less)
+t.test(treatment_group, control_group)
+t.test(treatment_group, control_group, "greater")
 
 # Paired t-test
 # Used when there are two groups, but each element of group A has "a natural pairing" with 
@@ -207,7 +220,6 @@ prop.test( c(150, 455), n = c(190, 614), alternative = "two.sided")
 # Alternative hypothesis: At least one of the proportions is different from that.
 
 # First find the n in data that falls into each category
-typecount = summary (cars$Type)
 typecount
 summary(cars$Type)
 ?summary
@@ -219,7 +231,7 @@ summarise(cars$Type)
 cars <- cars %>% 
   mutate(Type = as.factor(Type))
 summary(cars$Type)
-summary(cars)
+typecount = summary (cars$Type)
 
 prop2014 = c(.022, .073, .118, .761, .026)
 prop2014
