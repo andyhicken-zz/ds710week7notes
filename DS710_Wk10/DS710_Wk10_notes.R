@@ -115,3 +115,53 @@ microbenchmark(doubling(1,1000), doubling_fast(1,1000))
 # numeric(L) or vector(L)
 # maxtrix(, nr, nc)
 # read_csv("whatever", n_max = 804)
+
+
+# write a function to make a subset of the Cars 2005.csv data containing only cars with at least one upgrade
+
+findUpgrades <- function(df) {
+  
+  attach(df)
+  
+  scratch <- 
+    df %>%
+    filter(Cruise > 0 | Sound > 0 | Leather > 0)
+  
+  return(scratch)
+}
+
+library(readr)
+library(dplyr)
+
+cars <-  read_csv("Cars 2005.csv")
+
+upgradedCars <- findUpgrades(cars)
+head(upgradedCars)
+head(cars[,1:20])
+View(upgradedCars)
+
+
+# -----R SYNTAX FOR PROFILING------
+# first juts clean up garbage
+gc()
+Rprof("C:/Users/ahicken/Documents/GitHub/ds710notes/DS710_Wk10/some_file_name.txt") # must be a new filename. This starts the profiling.
+upgradedCars <- findUpgrades(cars)
+Rprof(NULL) # this ends the profiling. 
+summaryRprof("C:/Users/ahicken/Documents/GitHub/ds710notes/DS710_Wk10/some_file_name.txt")
+
+
+
+#-------SECOND LECTURE--------
+
+# more on microbenchmark()
+# in the output, 'neval' tells you the number of times the functions tested were run. 
+# you can do fewer iterations to save time if you like, using the times = argument
+
+microbenchmark(sqrt(x), MySqrt(x), times = 10)
+
+microbenchmark(read_csv("Cars 2005.csv"), read.csv("Cars 2005.csv"))
+
+# comment out print() when running microbenchmark()
+# include all functions in one call to microbenchmark()
+# if a function has no arguments, you still need to include () after the call.
+#    else you are just passing the definition to microbenchmark()

@@ -1,0 +1,3 @@
+sample.interval=20000
+"names" "checkConflicts" "attach" "findUpgrades" 
+"sys.call" "match.call" "as.vector" "setdiff" "strSub" "str.default" "NextMethod" "str.data.frame" "str" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "try" "eval" "eval" "withVisible" "evalVis" "capture.output" "eval" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" ".rs.withTimeLimit" ".rs.valueFromStr" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" ".rs.valueContents" "<Anonymous>" 
