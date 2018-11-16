@@ -1,0 +1,79 @@
+Institution:  University of Minnesota Twin Cities
+Motto	Commune vinculum omnibus artibus (Latin)
+Motto in English
+A common bond for all the arts
+Type	Public
+Flagship University
+Land-Grant
+Sea-Grant
+Space-Grant
+Established	1851
+
+Institution:  Carleton College
+Carletoncollegeseal.png
+Latin: Collegium Carleton
+Former names
+Northfield College
+Motto	Declaratio Sermonum Tuorum Illuminat (Latin)
+Motto in English
+The Revelation / Announcement of Your Words Illuminates
+Type	Private liberal arts college, Established	1866
+
+Institution:  William Mitchell College of Law
+WilliamMitchell.png
+Motto	Practical Wisdom
+Established	1956
+School type	Private
+
+Institution:  Macalester College
+Macalester College seal
+Motto	Natura et Revelatio Coeli Gemini (Latin)
+Motto in English
+Nature and Revelation are twin sisters of heaven
+Type	Private liberal arts college, Established	1874
+
+Institution:  University of St. Thomas
+UST Seal.png
+Former names
+College of St. Thomas (1885–1990)
+Motto	All for the common good
+Type	Private
+Established	1885
+
+Institution:  St. Olaf College
+StOlafSeal.png
+Motto	Fram! Fram! Kristmenn, Krossmenn (Nynorsk)
+Motto in English
+Forward! Forward! Men of Christ, Men of the Cross
+Type	Private liberal arts college
+Established	1874
+
+Institution:  University of Minnesota Duluth
+University of Minnesota seal.png
+Former names
+Duluth Normal School (1902–1921)
+Duluth State Teachers College (1921–1947)
+Motto	Those Who Can, Duluth[1]
+Type	Public
+Sea-Grant[2]
+Established	1902
+
+Institution:  Minnesota State University, Mankato
+MinnStateUnivSeal.png
+Motto	Big Ideas. Real-world Thinking.
+Type	Public
+Flagship University[1]
+Established	1868
+
+Institution:  Metropolitan State University
+MetroStateUniversityMNlogo.png
+Motto	Where life and learning meet
+Type	Public
+Established	1971
+
+Institution:  College of Saint Benedict
+Motto	Sic Luceat Lux Vestra
+Motto in English
+So let your light shine
+Type	Women's college
+Established	1913

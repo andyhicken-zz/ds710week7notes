@@ -1,0 +1,51 @@
+Institution	Professors	Associate Professors	Assistant Professors	Instructors	Lecturers	Unranked
+Marquette University
+Wisconsin | 4-year private | Doctoral	$118,953	$83,853	$72,702	$55,863	$53,937	$56,052
+University of Wisconsin at Madison
+Wisconsin | 4-year public | Very high research activity	$113,094	$84,510	$77,157	$51,120	$66,078	$34,407
+University of Wisconsin at Milwaukee
+Wisconsin | 4-year public | High research activity	$97,317	$74,925	$70,173	$49,077	$45,513	--
+Lawrence University
+Wisconsin | 4-year private | Arts and sciences baccalaureate	$90,324	$69,597	$54,396	$50,859	--	--
+Carthage College
+Wisconsin | 4-year private | Arts and sciences baccalaureate	$84,501	$68,958	$57,816	$34,128	--	--
+Milwaukee School of Engineering
+Wisconsin | 4-year private | Small master's	$83,034	$73,674	$69,642	$54,603	--	--
+Carroll University
+Wisconsin | 4-year private | Small master's	$81,315	$65,718	$54,828	--	$51,273	--
+Saint Norbert College
+Wisconsin | 4-year private | Arts and sciences baccalaureate	$81,018	$69,543	$52,956	$33,822	--	$47,052
+University of Wisconsin at Whitewater
+Wisconsin | 4-year public | Large master's	$78,966	$64,980	$65,610	--	$48,186	--
+University of Wisconsin at La Crosse
+Wisconsin | 4-year public | Large master's	$78,561	$62,649	$57,789	--	$42,588	--
+Marian University (Wis.)
+Wisconsin | 4-year private | Large master's	$78,525	$62,064	$51,408	$45,729	--	--
+Concordia University Wisconsin
+Wisconsin | 4-year private | Large master's	$78,300	$73,458	$70,488	$50,004	--	--
+Beloit College
+Wisconsin | 4-year private | Arts and sciences baccalaureate	$78,048	$61,569	$51,606	--	--	--
+University of Wisconsin at Oshkosh
+Wisconsin | 4-year public | Large master's	$76,383	$61,866	$57,816	$83,124	$44,667	--
+University of Wisconsin at Eau Claire
+Wisconsin | 4-year public | Medium master's	$75,078	$62,262	$59,526	$47,736	$45,657	--
+University of Wisconsin-Parkside
+Wisconsin | 4-year public | Arts and sciences baccalaureate	$74,367	$63,657	$55,602	--	$41,022	--
+Ripon College
+Wisconsin | 4-year private | Arts and sciences baccalaureate	$72,927	$56,538	$47,133	--	--	--
+Lakeland College
+Wisconsin | 4-year private | Large master's	$71,334	$58,446	$53,388	$42,039	--	--
+University of Wisconsin at River Falls
+Wisconsin | 4-year public | Medium master's	$71,199	$65,772	$56,439	--	$43,227	--
+University of Wisconsin-Stout
+Wisconsin | 4-year public | Large master's	$71,037	$61,254	$57,213	--	$45,774	--
+University of Wisconsin at Green Bay
+Wisconsin | 4-year public | Small master's	$70,920	$58,761	$57,267	--	$44,100	--
+Cardinal Stritch University
+Wisconsin | 4-year private | Doctoral	$69,228	$57,222	$52,857	$61,902	--	--
+University of Wisconsin at Platteville
+Wisconsin | 4-year public | Large master's	$68,886	$56,475	$55,080	--	$41,445	--
+University of Wisconsin at Stevens Point
+Wisconsin | 4-year public | Medium master's	$68,148	$58,482	$52,839	$47,151	$40,104	--
+Edgewood College
+Wisconsin | 4-year private | Doctoral	$67,860	$59,121	$49,581	$26,856	$37,755	--
